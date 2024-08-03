@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Blaze Regression Suite" verbose="3"
+	thread-count="1" >
+<!--
+	<test name="Home Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.demoblaze.tests.HomePageTest" />	    	 		
+		</classes>
+	</test>
+
+	<test name="Product Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.demoblaze.tests.ProductPageTest" />	    	 
+		</classes>
+	</test>
+-->
+	<test name="Cart Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.demoblaze.tests.CartPageTest" />	    	 <!-- Packagename.classname-->		
+		</classes>
+	</test>
+	
+
+<!--To comment, just select and CTRL+/ -->
+
+</suite>
