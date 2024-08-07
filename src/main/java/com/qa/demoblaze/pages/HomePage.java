@@ -82,6 +82,7 @@ public class HomePage {
 	}
 
 	public ProductPage selectProduct(String Category, String Product) {
+		driver.navigate().refresh();
 		eleutil.doClick(home);
 		driver.findElement(By.xpath("//a[@id='cat']/following-sibling::a[text()='" + Category + "']")).click();
 		eleutil.waitForElementVisibility(By.xpath("//a[text()='" + Product + "']/../../preceding-sibling::a/img"), 10);

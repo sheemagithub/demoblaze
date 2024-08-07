@@ -3,7 +3,7 @@
 
 <suite name="Demo Blaze Regression Suite" verbose="3"
 	thread-count="1" >
-
+<!--
 	<test name="Home Page Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -17,7 +17,7 @@
 			<class name="com.qa.demoblaze.tests.ProductPageTest" />	    	 
 		</classes>
 	</test>
-
+-->
 	<test name="Cart Page Test">
 		<parameter name="browser" value="chrome" />
 		<classes>

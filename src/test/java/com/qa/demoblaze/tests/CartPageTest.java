@@ -20,6 +20,7 @@ public class CartPageTest extends BaseTest {
 	@Test(priority = 0, dataProvider = "getDataFromCSV")
 	public void cartWithProductsListTest(String Category, String Product) {
 		System.out.println("********running for**********" + Category + "*" + Product);
+		
 		productpage = homepage.selectProduct(Category, Product);
 		cartpage = productpage.viewCart();
 	}
